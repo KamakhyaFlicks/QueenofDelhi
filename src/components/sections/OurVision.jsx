@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import ourVision from "../../assets/images/ourVision.jpg"
+import ourstory from "../../assets/images/ourstory.jpg";
+
 // Note: You'll need to install these packages:
 // npm install framer-motion react-intersection-observer
 
@@ -66,9 +68,9 @@ const OurVision = () => {
             variants={imageVariants}
           >
             <div className="relative overflow-hidden rounded-lg shadow-2xl">
-              <div className="absolute inset-0 bg-gradient-to-t from-purple-900/70 to-transparent z-10"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-purple-900/30 to-transparent z-10"></div>
               <img 
-                src={ourVision} 
+                src={ourstory} 
                 alt="Queen of Delhi Event" 
                 className="w-full object-cover h-96 lg:h-[500px] transform hover:scale-105 transition duration-700"
               />
