@@ -62,7 +62,7 @@ const BannerCarousel = () => {
               alt={`Slide ${index + 1}`} 
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 flex items-end justify-center mb-[5rem] z-20 mx-auto">
+            <div className="absolute inset-0 flex items-end justify-center mb-[5rem] z-20 w-full">
               <div className="text-center p-6 bg-black/5 backdrop-blur-sm rounded-lg max-w-xl mx-4">
                 <h2 className="text-white text-xl md:text-3xl font-bold italic">
                   "{quotes[index]}"

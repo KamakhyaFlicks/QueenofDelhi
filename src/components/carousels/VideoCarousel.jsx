@@ -12,19 +12,25 @@ const VideoCarousel = () => {
       id: 1,
       title: "Queen Of Delhi Talent round Performance at Amity University",
       description: "Amazing moments from our previous fashion week event with top designers.",
-      youtubeId: "o5569mSIwYI?si=8aGUciXXW0D2zEP1" // Example YouTube ID
+      youtubeId: "ViI3ucjs0h8?si=uASce77jv5no-i4J" // Example YouTube ID
+    },
+    {
+      id: 2,
+      title: "Bollywood Actor Mustaq Khan shared his blessings with Queen Of Delhi Contestents.",
+      description: "Go behind the scenes with our models as they prepare for the runway.",
+      youtubeId: "wb_ah5YBjIw?si=d5Z48bNmS_3cASwf" // Example YouTube ID
     },
     {
       id: 2,
       title: "Queen Of Delhi Fashion Week",
       description: "Go behind the scenes with our models as they prepare for the runway.",
-      youtubeId: "KI7_to6yfco?si=NbHOnmskNbtF0qDv" // Example YouTube ID
+      youtubeId: "o5569mSIwYI?si=8aGUciXXW0D2zEP1" // Example YouTube ID
     },
     {
       id: 3,
       title: "Queen Of Delhi",
       description: "Interviews with our featured designers showcasing their latest collections.",
-      youtubeId: "X7nlLEEcM5o?si=WbY9-ro-VnzeEwrt" // Example YouTube ID
+      youtubeId: "KjztYD8vH8Q?si=2PS2buo-S3vJ2FRL" // Example YouTube ID
     }
   ]);
 

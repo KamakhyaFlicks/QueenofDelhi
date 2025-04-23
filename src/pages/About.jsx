@@ -1,9 +1,11 @@
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
+import ourstory from "../assets/images/ourstory.jpg";
 // Note: You'll need to install these packages:
 // npm install framer-motion react-intersection-observer
+import { partners } from "../constants/partners";
+import OurSocietyWork from "../components/sections/OurSocietyWork";
 
 const About = () => {
   // Animation variants for various sections
@@ -222,7 +224,7 @@ const About = () => {
               className="w-full lg:w-1/2"
             >
               <img 
-                src="/api/placeholder/600/400" 
+                src={ourstory}
                 alt="Fashion Show Moment" 
                 className="w-full h-auto rounded-lg shadow-2xl border border-yellow-900/30"
               />
@@ -236,7 +238,7 @@ const About = () => {
             >
               <h3 className="text-2xl font-bold mb-4 text-yellow-300">From Humble Beginnings</h3>
               <p className="text-gray-300 mb-4">
-                Founded in 2010 by Arjun Malhotra, Queen of Delhi began as a small local modeling competition with just 20 participants. What set us apart from the beginning was our focus on holistic development, not just physical appearance.
+                Founded in 2020 by Shubhanshu Singh Rajput, Queen of Delhi began as a small local modeling competition with just 20 participants. What set us apart from the beginning was our focus on holistic development, not just physical appearance.
               </p>
               <p className="text-gray-300 mb-4">
                 Over the years, we've grown into Delhi's premier modeling institute and event, known for discovering some of India's top modeling talent. Our alumni grace the covers of leading magazines and walk the runways of international fashion weeks.
@@ -248,6 +250,8 @@ const About = () => {
           </div>
         </div>
       </section>
+      
+      
 
       {/* Stats Section */}
       <motion.section 
@@ -315,6 +319,8 @@ const About = () => {
         </div>
       </motion.section>
 
+      
+
       {/* Our Team */}
       <motion.section 
         ref={teamRef}
@@ -365,6 +371,8 @@ const About = () => {
         </div>
       </motion.section>
 
+      <OurSocietyWork/>
+
       {/* Partners & Sponsors */}
       <motion.section 
         ref={partnersRef}
@@ -380,14 +388,14 @@ const About = () => {
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
+            {partners.map((item) => (
               <motion.div 
                 key={item}
                 variants={itemVariant}
                 className="flex items-center justify-center py-4"
               >
                 <img 
-                  src={`/api/placeholder/150/80`} 
+                  src={item} 
                   alt={`Partner ${item}`} 
                   className="max-h-12 opacity-70 hover:opacity-100 transition duration-300 filter saturate-0 hover:saturate-100"
                 />

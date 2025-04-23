@@ -54,7 +54,7 @@ const OurVision = () => {
   return (
     <section className="py-16 bg-gray-900 text-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-16 text-yellow-400">Our Vision</h2>
+        <h2 className="text-4xl font-bold text-center mb-16 text-yellow-400">Our Society Work</h2>
         
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
           {/* Image Column */}
@@ -91,11 +91,9 @@ const OurVision = () => {
             <div className="p-4 lg:p-0">
               <h3 className="text-3xl font-bold mb-6 text-yellow-400">Queen of Delhi</h3>
               <p className="text-lg mb-6 leading-relaxed text-gray-300">
-                The "Queen of Delhi" event represents the pinnacle of elegance, empowerment, and cultural celebration in India's vibrant capital. Our vision is to create a platform that transcends the conventional boundaries of beauty pageants, focusing instead on showcasing the multifaceted talents, intellectual prowess, and social consciousness of today's modern woman.
+              OUR MOTIVE IS TO SPREAD AWARNESS THAT BEAUTY IS JUST NOT ABOUT HOW YOU LOOK, IT COMES FROM WITHIN AN INDIVIDUAL. QOD HAS TAKEN THIS OATH TO HELP ACID ATTACK SURVIVERS AND GIVE THEM EQUAL RIGHTS IN THE SOCIETY. QOD COLLECTED FUNDS AND DONATED IT TOWARDS THEIR WELFARE.
               </p>
-              <p className="text-lg mb-8 leading-relaxed text-gray-300">
-                We strive to highlight the rich cultural heritage of Delhi while embracing forward-thinking ideals. Each participant embodies the spirit of the city – resilient, diverse, and radiating timeless grace. Through this prestigious event, we aim to inspire a new generation of women who combine traditional values with contemporary vision, creating positive change in their communities and beyond.
-              </p>
+              
               <button className="bg-yellow-400 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:-translate-y-1">
                 Learn More
               </button>

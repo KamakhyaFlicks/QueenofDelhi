@@ -6,6 +6,7 @@ import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 
 import { BrowserRouter as Router,Routes,Route } from "react-router-dom"
+import Register from './pages/Register'
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/home" element={<Home/>}/>
       <Route path="/Contact" element={<Contact/>}/>
+      <Route path="/register" element={<Register/>}/>
     </Routes>
         <Footer/>
     </div>
