@@ -62,7 +62,7 @@ export default function Register() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative bg-zinc-900/70 border border-zinc-800 rounded-xl p-4 md:p-6 overflow-hidden"
+          className="relative bg-zinc-900/70 border border-zinc-800 rounded-xl p-4 md:p-6 overflow-hidden "
         >
           {/* Loading indicator */}
           {isLoading && (
@@ -101,7 +101,7 @@ export default function Register() {
               marginHeight="0"
               marginWidth="0"
               onLoad={handleIframeLoad}
-              className="w-full h-full"
+              className="w-full h-[100rem]"
               title="Registration Form"
             >
               Loading…
